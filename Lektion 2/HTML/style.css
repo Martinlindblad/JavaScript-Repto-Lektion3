@@ -1,0 +1,9 @@
+﻿body {
+
+ color:gold;
+ background-color: black;
+ border-bottom: 5px blue;
+ border-left: 10px gold;
+ border-right: 10px gold;
+ border-top: 15px gold;
+}
