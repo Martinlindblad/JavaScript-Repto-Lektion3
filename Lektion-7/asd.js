@@ -1,3 +1,4 @@
+HEAD
 let Hiss = {
     plan : 0,
     goTo : function(level) {
@@ -19,4 +20,8 @@ Hiss.goTo(4);
 Hiss.where();
 Hiss.goTo(5);
 Hiss.where();
+
+
+let h = prompt('Ange höjd');
+let b = prompt('Ange bredd');
 
