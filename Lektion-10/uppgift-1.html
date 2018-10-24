@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let min = prompt("Ange min/min per måndad: ");
+        let kostnad = prompt("Ange konstnad per minut: ");
+        let rabatt = kostnad * 0.90;
+        let totRabatt = kostnad - rabatt  ;
+        function tot(){
+            return (kostnad < 1000)  ? ((min * rabatt) + ' kr/månad' + '\n' + 'Med ' + totRabatt + ' kr rabatt') : ((kostnad * min) + ' kr/månad med ingen rabatt');
+        }    
+        alert(tot());
+    </script>
+</body>
+</html>

@@ -14,7 +14,7 @@ console.log(today.getMilliseconds());
 
 console.log(today.toDateString());
 console.log(today.toTimeString());
-*/
+
 let day = new Date();
 year = day.getFullYear();
 month = day.getMonth() + 1;

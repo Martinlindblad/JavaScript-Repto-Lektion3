@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exempel-2</title>
+</head>
+<body>
+    <script>
+        function promptAge(){
+            let age = prompt("Hur gammal är du?");
+            console.log(age);    
+        
+        if(age === null || age === '' || isNaN(age))
+            alert("Felaktig inmatning")
+            return;
+        
+        //console.log(typeof age); // string
+        //console.log(age<18);
+        let voteable ='';
+        if(age > 18){
+            voteable = "Du får inte rösta!";
+        }
+        else{
+            voteable = "Du får rösta!";
+        }    
+        alert(voteable);
+        // Omvandla if-else (logiken) ovanför till ternary istället 
+        // ? :
+        voteable = age < 18 ? "Du får inte rösta!" : "Du får rösta";
+        alert(voteable)
+        
+    }
+    promptAge();
+    
+    </script>
+</body>
+</html>
