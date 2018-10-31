@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Avstånds formel</title>
+</head>
+<body>
+    <script>
+        // d = sqrt( (x2-x1)^2 + (y2-y1)^2 )
+
+        let x1,x2,y1,y2;
+        x1= prompt("Ange x1: ");
+        x2=2;prompt("Ange x2: ");
+        y1=1;prompt("Ange y1: ");
+        y2=2;prompt("Ange y2: ");
+        let d = Math.sqrt(Math.pow((x2-x1), 2) + Math.pow((y2-y1), 2)); // Kan använda ** istället för Math.pow
+        alert(d.toFixed(4));
+    </script>   
+</body>
+</html>

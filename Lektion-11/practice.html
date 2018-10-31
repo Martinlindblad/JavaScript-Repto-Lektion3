@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    /*   let n;
+       let min = Number.MAX_VALUE; 
+       let max = 0;
+       while (true){
+           n = prompt("Ange ett tal större än 0: ");
+        if (n === null)
+        break;
+        min = Math.min(n, min);
+        max = Math.max(n, max);
+        
+    }
+    alert("Största talet är " + max + "\nMinsta talet är " + min)
+       
+    let x = 1;
+    let n = prompt("Ange ett heltal: ");
+    if (n%2 === 0){
+        for (let x = 1; x <= n ; x++){
+            alert(x + n)
+        }
+    } 
+    let summa = 0;
+    while(true){
+        let n = prompt("Ange ett heltal: ")
+            if(n === null) break;
+        n = Number(n);
+        if(Number.isInteger(Number(n))){
+            for(let i = 1 ; i <= n ; i++){
+                summa += i; // Lägg till
+            }
+            break;
+        }
+        else{
+            alert("Felaktig inmatning!\nSkriv ett heltal!");
+            
+        }
+    }
+    alert("Summan slut " + summa); */
+    
+    let summa = 0;
+    while(true){
+        let n = prompt("Ange ett heltal: ")
+            if (n === null) break;
+        n = Number(n);
+        if(Number.isInteger(Number(n))){
+            for(let i = 1 ; i <= n ; i++){
+                summa += i; 
+            }
+            break;
+        }
+        else{
+            alert("Felaktig inmatning!\nSkriv ett heltal!")
+        }
+        alert("Slutsumma: " + summa)
+    }
+    
+    
+    </script>
+
+
+
+</body>
+</html>

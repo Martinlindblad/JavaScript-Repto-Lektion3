@@ -47,14 +47,13 @@ function tid(){
     let d = dat.getDay();
     let m = dat.getMonth();
     let y = dat.getFullYear();
-    return da[d] + 'Den ' +  mo[m] + y; 
+    return da[d] + ' Den ' +  mo[m] + ' ' + y; 
 
 }
 console.log(tid());
 
 
-let x = new Date();
-setInterval()
+
  
 
 
